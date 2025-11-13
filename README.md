@@ -37,12 +37,12 @@ Uses Gemini’s natural language understanding to sort emails into:
  ### **2.Asyncio Backbone**
   Enables continuous background execution without blocking or duplication.
  ### **3.Google Chat Integration**
-   Ensures urgent messages reach you instantly — even outside your inbox.
+   Ensures urgent messages reach you instantly even outside your inbox.
 
 
 ## Why It Matters
 
-   This isn’t just automation — it’s peace of mind. Whether you’re deep in work or offline for the weekend, your inbox stays organized, responsive, and alert-ready.
+   This isn’t just automation it’s peace of mind. Whether you’re deep in work or offline for the weekend, your inbox stays organized, responsive, and alert-ready.
    
    No more inbox anxiety. Just intelligent communication, handled quietly and efficiently.
 
