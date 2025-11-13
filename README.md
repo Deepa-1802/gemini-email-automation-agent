@@ -3,12 +3,12 @@ Smart. Seamless. Stress-free inbox management.
 
 ## 💡Overview  
 
-Managing email shouldn’t feel like a full-time job. The AI Email Responder Agent is a hands-free Gmail assistant that reads, classifies, and responds to emails intelligently and instantly.
+   Managing email shouldn’t feel like a full-time job. The AI Email Responder Agent is a hands-free Gmail assistant that reads, classifies, and responds to emails              intelligently and instantly.
+   
+   Powered by Gemini API, LangGraph, and Google Chat Webhooks, this agent transforms your inbox into a self-organizing, self-responding system that’s always on and always      accurate.
 
-Powered by Gemini API, LangGraph, and Google Chat Webhooks, this agent transforms your inbox into a self-organizing, self-responding system that’s always on and always accurate.
 
-
-## 🤖What It Does
+## What It Does
 
 ###  **1.Real-Time Monitoring**
 Continuously watches your Gmail inbox using asyncio, ensuring no   email is missed or processed twice.
@@ -40,7 +40,7 @@ Uses Gemini’s natural language understanding to sort emails into:
    Ensures urgent messages reach you instantly — even outside your inbox.
 
 
-## 🌟Why It Matters
+## Why It Matters
 
    This isn’t just automation — it’s peace of mind. Whether you’re deep in work or offline for the weekend, your inbox stays organized, responsive, and alert-ready.
    
@@ -48,19 +48,19 @@ Uses Gemini’s natural language understanding to sort emails into:
 
 ## ***Features***
 
-    ***1.Email Fetching*** --             Reads new emails using Gmail API
+   ***1.Email Fetching*** --             Reads new emails using Gmail API
     
-    ***2.Classification (Gemini API)*** -- Categorizes emails as Work, Personal, Spam, or Urgent
+   ***2.Classification (Gemini API)*** -- Categorizes emails as Work, Personal, Spam, or Urgent
     
-    ***3.Auto Labeling*** --               Adds labels inside Gmail automatically
+   ***3.Auto Labeling*** --               Adds labels inside Gmail automatically
     
-    ***4.Smart Reply Generation*** --       Generates a polite and concise response
+   ***4.Smart Reply Generation*** --       Generates a polite and concise response
     
-    ***5.Priority Alerts*** --            Urgent emails are pushed to a Google Chat Space via webhook
+   ***5.Priority Alerts*** --            Urgent emails are pushed to a Google Chat Space via webhook
     
-    ***6.Continuous Workflow*** --        Runs in background with periodic checks using asyncio
+   ***6.Continuous Workflow*** --        Runs in background with periodic checks using asyncio
     
-    ***7.Modular Design*** --              Each step is handled by a separate agent (fetcher, classifier, responder, priority handler)
+   ***7.Modular Design*** --              Each step is handled by a separate agent (fetcher, classifier, responder, priority handler)
    
 
 
@@ -104,11 +104,11 @@ Uses Gemini’s natural language understanding to sort emails into:
 ## Installation
 
 ## Prerequisites
-    - Python 3.10+
-    - Google Gemini api key (for embeddings)
-    - Google Chat Webhooks
-    - Gmail API credentials
-    - Necessary Python libraries (listed in `requirements.txt`)
+   - Python 3.10+
+   - Google Gemini api key (for embeddings)
+   - Google Chat Webhooks
+   - Gmail API credentials
+   - Necessary Python libraries (listed in `requirements.txt`)
    
     
 ## setup
