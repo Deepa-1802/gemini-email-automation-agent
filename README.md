@@ -1,13 +1,13 @@
 # 📬 ***Automated Email Responder***
 Smart. Seamless. Stress-free inbox management.
 
-# **Overview**
+## Overview
 
 Managing email shouldn’t feel like a full-time job. The AI Email Responder Agent is a hands-free Gmail assistant that reads, classifies, and responds to emails — intelligently and instantly.
 
 Powered by Gemini API, LangGraph, and Google Chat Webhooks, this agent transforms your inbox into a self-organizing, self-responding system that’s always on and always accurate.
 
-# 🔧 **What It Does**
+## What It Does
 
 ### **Real-Time Monitoring**
 Continuously watches your Gmail inbox using asyncio, ensuring no   email is missed or processed twice.
@@ -20,7 +20,7 @@ Uses Gemini’s natural language understanding to sort emails into:
    - Spam
 
    - Urgent
-  ### **Automated Actions**
+### **Automated Actions**
   
   🏷️ Applies Gmail labels for clean organization
 
@@ -28,7 +28,7 @@ Uses Gemini’s natural language understanding to sort emails into:
 
  🚨 Sends urgent alerts to Google Chat for immediate attention
 
-# ⚙️ **Architecture Highlights**
+## Architecture Highlights
 
 ### **LangGraph Workflow**
    Modular and event-driven, designed for scalability and maintainability.
@@ -37,13 +37,13 @@ Uses Gemini’s natural language understanding to sort emails into:
 ### **Google Chat Integration**
    Ensures urgent messages reach you instantly — even outside your inbox.
 
-# 🚀 **Why It Matters**
+## Why It Matters
 
 This isn’t just automation — it’s peace of mind. Whether you’re deep in work or offline for the weekend, your inbox stays organized, responsive, and alert-ready.
 
 No more inbox anxiety. Just intelligent communication, handled quietly and efficiently.
 
-# **Features**
+## Features
 
 ### **1.Email Fetching**: 
    Reads new emails using Gmail API
@@ -95,9 +95,9 @@ No more inbox anxiety. Just intelligent communication, handled quietly and effic
 -  Google Chat Webhooks
 -  Asyncio: Background email polling
 
- ### Installation
+## Installation
 
- ### Prerequisites
+## Prerequisites
  - Python 3.10+
  - Google Gemini api key (for embeddings)
  - Google Chat Webhooks
@@ -109,8 +109,8 @@ No more inbox anxiety. Just intelligent communication, handled quietly and effic
 1. **Clone this repository**
 
 ```bash
-git clone https://github.com/deepa-1802/ai-email-responder.git 
-cd ai-email-responder
+git clone https://github.com/Deepa-1802/gemini-email-automation-agent.git
+cd gemini-email-automation-agent
 ```
 2. **Create virtual environment**
 
