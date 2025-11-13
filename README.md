@@ -1,14 +1,14 @@
 # 📬 ***Automated Email Responder***
 Smart. Seamless. Stress-free inbox management.
 
-## 💡Overview
+## 💡***Overview***
 
 Managing email shouldn’t feel like a full-time job. The AI Email Responder Agent is a hands-free Gmail assistant that reads, classifies, and responds to emails intelligently and instantly.
 
 Powered by Gemini API, LangGraph, and Google Chat Webhooks, this agent transforms your inbox into a self-organizing, self-responding system that’s always on and always accurate.
 
 
-## What It Does
+## 🤖***What It Does***
 
 ###  **1.Real-Time Monitoring**
 Continuously watches your Gmail inbox using asyncio, ensuring no   email is missed or processed twice.
@@ -30,7 +30,7 @@ Uses Gemini’s natural language understanding to sort emails into:
   🚨 Sends urgent alerts to Google Chat for immediate attention
 
 
-## Architecture Highlights
+## ⚡***Architecture Highlights***
 
 ### **1.LangGraph Workflow**
    Modular and event-driven, designed for scalability and maintainability.
@@ -40,13 +40,13 @@ Uses Gemini’s natural language understanding to sort emails into:
    Ensures urgent messages reach you instantly — even outside your inbox.
 
 
-## Why It Matters
+## 🌟***Why It Matters***
 
 This isn’t just automation — it’s peace of mind. Whether you’re deep in work or offline for the weekend, your inbox stays organized, responsive, and alert-ready.
 
 No more inbox anxiety. Just intelligent communication, handled quietly and efficiently.
 
-## Features
+## ***Features***
 
  ***1.Email Fetching*** --             Reads new emails using Gmail API
  
@@ -65,7 +65,7 @@ No more inbox anxiety. Just intelligent communication, handled quietly and effic
 
 
 
-## Directory Structure
+## ***Directory Structure***
 
 ```plaintext
 
@@ -93,7 +93,7 @@ No more inbox anxiety. Just intelligent communication, handled quietly and effic
 ```
 
 
-## Tech Stack
+## ***Tech Stack***
 
 -  LangGraph: for developing AI agent Workflow 
 -  Google Gmail API
@@ -101,9 +101,9 @@ No more inbox anxiety. Just intelligent communication, handled quietly and effic
 -  Asyncio: Background email polling
 
 
-## Installation
+## ***Installation***
 
-## Prerequisites
+## ***Prerequisites***
  - Python 3.10+
  - Google Gemini api key (for embeddings)
  - Google Chat Webhooks
@@ -111,7 +111,7 @@ No more inbox anxiety. Just intelligent communication, handled quietly and effic
  - Necessary Python libraries (listed in `requirements.txt`)
 
  
-## setup
+## ***setup***
 
 1. **Clone this repository**
 
@@ -123,7 +123,7 @@ cd gemini-email-automation-agent
 
 ```bash
 python -m venv venv
-venv\Scripts\activate  # On Windows
+venv\Scripts\activate  
 ```
 3. **Install dependencies**
    
@@ -132,7 +132,7 @@ pip install -r requirements.txt
 ```
 
 
-## Configuration
+## ***Configuration***
 
 The application requires several configuration settings (such as API keys and email server credentials). Create a `.env` file in the project root with the following variables:
 
@@ -145,7 +145,7 @@ GOOGLE_CHAT_WEBHOOK=https://chat.googleapis.com/v1/spaces/...
 ```
 
 
-## usage
+## ***usage***
 
 To run the main email processing application, simply execute:
 
@@ -154,7 +154,7 @@ python main.py
 ```
 
 
-## Workflow Overview
+## ***Workflow Overview***
 
 
 |Step| Agent             | Function                                      |
@@ -168,7 +168,7 @@ python main.py
 
 
 
-## Example Output
+## ***Example Output***
 
 When an urgent email is detected:
 
