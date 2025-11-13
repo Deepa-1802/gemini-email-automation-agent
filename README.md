@@ -9,10 +9,10 @@ Powered by Gemini API, LangGraph, and Google Chat Webhooks, this agent transform
 
 # 🔧 **What It Does**
 
-- **Real-Time Monitoring**
-      Continuously watches your Gmail inbox using asyncio, ensuring no email is missed or processed twice.
-- **Smart Classification**
-     Uses Gemini’s natural language understanding to sort emails into:    
+### **Real-Time Monitoring**
+      Continuously watches your Gmail inbox using asyncio, ensuring no   email is missed or processed twice.
+### **Smart Classification**
+      Uses Gemini’s natural language understanding to sort emails into:    
    - Work
 
    - Personal
@@ -46,7 +46,7 @@ No more inbox anxiety. Just intelligent communication, handled quietly and effic
 **Features**
 
 **1.Email Fetching**: 
-     — Reads new emails using Gmail API
+     Reads new emails using Gmail API
 **2.Classification (Gemini API)** 
      — Categorizes emails as Work, Personal, Spam, or Urgent
 **3.Auto Labeling** 
