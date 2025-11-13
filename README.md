@@ -9,19 +9,21 @@ Powered by Gemini API, LangGraph, and Google Chat Webhooks, this agent transform
 
 # 🔧 **What It Does**
 
-Real-Time Monitoring Continuously watches your Gmail inbox using asyncio, ensuring no email is missed or processed twice.
+- *Real-Time Monitoring*
+  Continuously watches your Gmail inbox using asyncio, ensuring no email is missed or processed twice.
 
-Smart Classification Uses Gemini’s natural language understanding to sort emails into:
+- *Smart Classification*
+   Uses Gemini’s natural language understanding to sort emails into:
+      
+   - Work
 
-Work
+   - Personal
 
-Personal
+   - Spam
 
-Spam
+   - Urgent
 
-Urgent
-
-# **Automated Actions**
+- *Automated Actions*
 
 🏷️ Applies Gmail labels for clean organization
 
@@ -31,11 +33,14 @@ Urgent
 
 # ⚙️ **Architecture Highlights**
 
-LangGraph Workflow Modular and event-driven, designed for scalability and maintainability.
+- LangGraph Workflow
+  Modular and event-driven, designed for scalability and maintainability.
 
-Asyncio Backbone Enables continuous background execution without blocking or duplication.
+- Asyncio Backbone
+  Enables continuous background execution without blocking or duplication.
 
-Google Chat Integration Ensures urgent messages reach you instantly — even outside your inbox.
+- Google Chat Integration
+   Ensures urgent messages reach you instantly — even outside your inbox.
 
 # 🚀 **Why It Matters**
 
