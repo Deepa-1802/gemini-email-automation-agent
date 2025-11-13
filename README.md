@@ -1,13 +1,13 @@
-#📬 **Automated Email Responder**
+# 📬 ***Automated Email Responder***
 Smart. Seamless. Stress-free inbox management.
 
-#**Overview**
+# **Overview**
 
 Managing email shouldn’t feel like a full-time job. The AI Email Responder Agent is a hands-free Gmail assistant that reads, classifies, and responds to emails — intelligently and instantly.
 
 Powered by Gemini API, LangGraph, and Google Chat Webhooks, this agent transforms your inbox into a self-organizing, self-responding system that’s always on and always accurate.
 
-#🔧 **What It Does**
+# 🔧 **What It Does**
 
 Real-Time Monitoring Continuously watches your Gmail inbox using asyncio, ensuring no email is missed or processed twice.
 
@@ -21,7 +21,7 @@ Spam
 
 Urgent
 
-**Automated Actions**
+# **Automated Actions**
 
 🏷️ Applies Gmail labels for clean organization
 
@@ -29,7 +29,7 @@ Urgent
 
 🚨 Sends urgent alerts to Google Chat for immediate attention
 
-#⚙️ **Architecture Highlights**
+# ⚙️ **Architecture Highlights**
 
 LangGraph Workflow Modular and event-driven, designed for scalability and maintainability.
 
@@ -37,7 +37,7 @@ Asyncio Backbone Enables continuous background execution without blocking or dup
 
 Google Chat Integration Ensures urgent messages reach you instantly — even outside your inbox.
 
-#🚀 **Why It Matters**
+# 🚀 **Why It Matters**
 
 This isn’t just automation — it’s peace of mind. Whether you’re deep in work or offline for the weekend, your inbox stays organized, responsive, and alert-ready.
 
