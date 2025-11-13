@@ -33,11 +33,11 @@ Uses Gemini’s natural language understanding to sort emails into:
 ## Architecture Highlights
 
  ### **1.LangGraph Workflow**
-   Modular and event-driven, designed for scalability and maintainability.
+   - Modular and event-driven, designed for scalability and maintainability.
  ### **2.Asyncio Backbone**
-  Enables continuous background execution without blocking or duplication.
+  - Enables continuous background execution without blocking or duplication.
  ### **3.Google Chat Integration**
-   Ensures urgent messages reach you instantly even outside your inbox.
+   - Ensures urgent messages reach you instantly even outside your inbox.
 
 
 ## Why It Matters
