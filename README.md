@@ -1,9 +1,9 @@
 # 📬 ***Automated Email Responder***
 Smart. Seamless. Stress-free inbox management.
 
-## Overview
+## 💡Overview
 
-Managing email shouldn’t feel like a full-time job. The AI Email Responder Agent is a hands-free Gmail assistant that reads, classifies, and responds to emails — intelligently and instantly.
+Managing email shouldn’t feel like a full-time job. The AI Email Responder Agent is a hands-free Gmail assistant that reads, classifies, and responds to emails intelligently and instantly.
 
 Powered by Gemini API, LangGraph, and Google Chat Webhooks, this agent transforms your inbox into a self-organizing, self-responding system that’s always on and always accurate.
 
@@ -26,9 +26,9 @@ Uses Gemini’s natural language understanding to sort emails into:
 
   💬 Generates polite, context-aware replies
 
- 🚨 Sends urgent alerts to Google Chat for immediate attention
+  🚨 Sends urgent alerts to Google Chat for immediate attention
 
-## Architecture Highlights
+## ⚡Architecture Highlights
 
 ### - **LangGraph Workflow**
    Modular and event-driven, designed for scalability and maintainability.
@@ -45,20 +45,13 @@ No more inbox anxiety. Just intelligent communication, handled quietly and effic
 
 ## Features
 
-### **1.Email Fetching**: 
-   Reads new emails using Gmail API
-### **2.Classification (Gemini API)** 
-   Categorizes emails as Work, Personal, Spam, or Urgent
-### **3.Auto Labeling** 
-   Adds labels inside Gmail automatically
-### **4.Smart Reply Generation**
-   Generates a polite and concise response
-### **5.Priority Alerts** 
-   Urgent emails are pushed to a Google Chat Space via webhook
-### **6.Continuous Workflow**
-   Runs in background with periodic checks using asyncio
-### **7.Modular Design**
-   Each step is handled by a separate agent (fetcher, classifier, responder, priority handler)
+### **1.Email Fetching**: Reads new emails using Gmail API
+### **2.Classification (Gemini API)**: Categorizes emails as Work, Personal, Spam, or Urgent
+### **3.Auto Labeling**: Adds labels inside Gmail automatically
+### **4.Smart Reply Generation**: Generates a polite and concise response
+### **5.Priority Alerts**: Urgent emails are pushed to a Google Chat Space via webhook
+### **6.Continuous Workflow**: Runs in background with periodic checks using asyncio
+### **7.Modular Design**: Each step is handled by a separate agent (fetcher, classifier, responder, priority handler)
 
 
 ## Directory Structure
