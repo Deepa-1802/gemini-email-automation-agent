@@ -45,13 +45,19 @@ No more inbox anxiety. Just intelligent communication, handled quietly and effic
 
 ## Features
 
- ***1.Email Fetching***: Reads new emails using Gmail API
+ ***1.Email Fetching***:              Reads new emails using Gmail API
+ 
  ***2.Classification (Gemini API)***: Categorizes emails as Work, Personal, Spam, or Urgent
- ***3.Auto Labeling***: Adds labels inside Gmail automatically
- ***4.Smart Reply Generation***: Generates a polite and concise response
- ***5.Priority Alerts***: Urgent emails are pushed to a Google Chat Space via webhook
- ***6.Continuous Workflow***: Runs in background with periodic checks using asyncio
- ***7.Modular Design***: Each step is handled by a separate agent (fetcher, classifier, responder, priority handler)
+ 
+ ***3.Auto Labeling***:               Adds labels inside Gmail automatically
+ 
+ ***4.Smart Reply Generation***       Generates a polite and concise response
+ 
+ ***5.Priority Alerts***:             Urgent emails are pushed to a Google Chat Space via webhook
+ 
+ ***6.Continuous Workflow***:         Runs in background with periodic checks using asyncio
+ 
+ ***7.Modular Design***:              Each step is handled by a separate agent (fetcher, classifier, responder, priority handler)
 
 
 ## Directory Structure
