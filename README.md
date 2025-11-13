@@ -10,9 +10,9 @@ Powered by Gemini API, LangGraph, and Google Chat Webhooks, this agent transform
 # 🔧 **What It Does**
 
 ### **Real-Time Monitoring**
--Continuously watches your Gmail inbox using asyncio, ensuring no   email is missed or processed twice.
+Continuously watches your Gmail inbox using asyncio, ensuring no   email is missed or processed twice.
 ### **Smart Classification**
--Uses Gemini’s natural language understanding to sort emails into:    
+Uses Gemini’s natural language understanding to sort emails into:    
    - Work
 
    - Personal
@@ -20,22 +20,22 @@ Powered by Gemini API, LangGraph, and Google Chat Webhooks, this agent transform
    - Spam
 
    - Urgent
-- **Automated Actions**
+  ### **Automated Actions**
   
-    🏷️ Applies Gmail labels for clean organization
+  🏷️ Applies Gmail labels for clean organization
 
-    💬 Generates polite, context-aware replies
+  💬 Generates polite, context-aware replies
 
-    🚨 Sends urgent alerts to Google Chat for immediate attention
+ 🚨 Sends urgent alerts to Google Chat for immediate attention
 
 # ⚙️ **Architecture Highlights**
 
-- **LangGraph Workflow**
-     Modular and event-driven, designed for scalability and maintainability.
-- **Asyncio Backbone**
-     Enables continuous background execution without blocking or duplication.
-- **Google Chat Integration**
-     Ensures urgent messages reach you instantly — even outside your inbox.
+### **LangGraph Workflow**
+   Modular and event-driven, designed for scalability and maintainability.
+### **Asyncio Backbone**
+   Enables continuous background execution without blocking or duplication.
+### **Google Chat Integration**
+   Ensures urgent messages reach you instantly — even outside your inbox.
 
 # 🚀 **Why It Matters**
 
@@ -43,22 +43,22 @@ This isn’t just automation — it’s peace of mind. Whether you’re deep in 
 
 No more inbox anxiety. Just intelligent communication, handled quietly and efficiently.
 
-**Features**
+# **Features**
 
-**1.Email Fetching**: 
-     Reads new emails using Gmail API
-**2.Classification (Gemini API)** 
-     — Categorizes emails as Work, Personal, Spam, or Urgent
-**3.Auto Labeling** 
-     — Adds labels inside Gmail automatically
-**4.Smart Reply Generation**
-     — Generates a polite and concise response
-**5.Priority Alerts** 
-     — Urgent emails are pushed to a Google Chat Space via webhook
-**6.Continuous Workflow**
-     — Runs in background with periodic checks using asyncio
-**7.Modular Design**
-     — Each step is handled by a separate agent (fetcher, classifier, responder, priority handler)
+### **1.Email Fetching**: 
+   Reads new emails using Gmail API
+### **2.Classification (Gemini API)** 
+   Categorizes emails as Work, Personal, Spam, or Urgent
+### **3.Auto Labeling** 
+   Adds labels inside Gmail automatically
+### **4.Smart Reply Generation**
+   Generates a polite and concise response
+### **5.Priority Alerts** 
+   Urgent emails are pushed to a Google Chat Space via webhook
+### **6.Continuous Workflow**
+   Runs in background with periodic checks using asyncio
+### **7.Modular Design**
+   Each step is handled by a separate agent (fetcher, classifier, responder, priority handler)
 
 
 ## Directory Structure
@@ -90,19 +90,19 @@ No more inbox anxiety. Just intelligent communication, handled quietly and effic
 
 ## Tech Stack
 
-*LangGraph: for developing AI agent Workflow 
-*Google Gmail API
-*Google Chat Webhooks
-*Asyncio: Background email polling
+-  LangGraph: for developing AI agent Workflow 
+-  Google Gmail API
+-  Google Chat Webhooks
+-  Asyncio: Background email polling
 
  ### Installation
 
  ### Prerequisites
  - Python 3.10+
-- Google Gemini api key (for embeddings)
-- Google Chat Webhooks
-- Gmail API credentials
-- Necessary Python libraries (listed in `requirements.txt`)
+ - Google Gemini api key (for embeddings)
+ - Google Chat Webhooks
+ - Gmail API credentials
+ - Necessary Python libraries (listed in `requirements.txt`)
  
 ## setup
 
