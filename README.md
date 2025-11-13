@@ -10,9 +10,9 @@ Powered by Gemini API, LangGraph, and Google Chat Webhooks, this agent transform
 
 ## What It Does
 
-### - **Real-Time Monitoring**
+###  **- Real-Time Monitoring**
 Continuously watches your Gmail inbox using asyncio, ensuring no   email is missed or processed twice.
-### - **Smart Classification**
+###  **- Smart Classification**
 Uses Gemini’s natural language understanding to sort emails into:    
    - Work
 
@@ -21,7 +21,7 @@ Uses Gemini’s natural language understanding to sort emails into:
    - Spam
 
    - Urgent
-### - **Automated Actions**
+###  **- Automated Actions**
   
   🏷️ Applies Gmail labels for clean organization
 
@@ -32,11 +32,11 @@ Uses Gemini’s natural language understanding to sort emails into:
 
 ## Architecture Highlights
 
-### - **LangGraph Workflow**
+### **- LangGraph Workflow**
    Modular and event-driven, designed for scalability and maintainability.
-### - **Asyncio Backbone**
+### **- Asyncio Backbone**
    Enables continuous background execution without blocking or duplication.
-### - **Google Chat Integration**
+### **-Google Chat Integration**
    Ensures urgent messages reach you instantly — even outside your inbox.
 
 
@@ -47,21 +47,21 @@ This isn’t just automation — it’s peace of mind. Whether you’re deep in 
 No more inbox anxiety. Just intelligent communication, handled quietly and efficiently.
 
 ## Features
-```plaintext
- ***1.Email Fetching***:              Reads new emails using Gmail API
+
+ ***1.Email Fetching*** --             Reads new emails using Gmail API
  
- ***2.Classification (Gemini API)***: Categorizes emails as Work, Personal, Spam, or Urgent
+ ***2.Classification (Gemini API)*** -- Categorizes emails as Work, Personal, Spam, or Urgent
  
- ***3.Auto Labeling***:               Adds labels inside Gmail automatically
+ ***3.Auto Labeling*** --               Adds labels inside Gmail automatically
  
- ***4.Smart Reply Generation***       Generates a polite and concise response
+ ***4.Smart Reply Generation*** --       Generates a polite and concise response
  
- ***5.Priority Alerts***:             Urgent emails are pushed to a Google Chat Space via webhook
+ ***5.Priority Alerts*** --            Urgent emails are pushed to a Google Chat Space via webhook
  
- ***6.Continuous Workflow***:         Runs in background with periodic checks using asyncio
+ ***6.Continuous Workflow*** --        Runs in background with periodic checks using asyncio
  
- ***7.Modular Design***:              Each step is handled by a separate agent (fetcher, classifier, responder, priority handler)
-```
+ ***7.Modular Design*** --              Each step is handled by a separate agent (fetcher, classifier, responder, priority handler)
+
 
 
 
@@ -92,12 +92,14 @@ No more inbox anxiety. Just intelligent communication, handled quietly and effic
 └── README.md
 ```
 
+
 ## Tech Stack
 
 -  LangGraph: for developing AI agent Workflow 
 -  Google Gmail API
 -  Google Chat Webhooks
 -  Asyncio: Background email polling
+
 
 ## Installation
 
@@ -107,6 +109,7 @@ No more inbox anxiety. Just intelligent communication, handled quietly and effic
  - Google Chat Webhooks
  - Gmail API credentials
  - Necessary Python libraries (listed in `requirements.txt`)
+
  
 ## setup
 
@@ -128,6 +131,7 @@ venv\Scripts\activate  # On Windows
 pip install -r requirements.txt
 ```
 
+
 ## Configuration
 
 The application requires several configuration settings (such as API keys and email server credentials). Create a `.env` file in the project root with the following variables:
@@ -140,6 +144,7 @@ GEMINI_API_KEY=your_gemini_api_key
 GOOGLE_CHAT_WEBHOOK=https://chat.googleapis.com/v1/spaces/...
 ```
 
+
 ## usage
 
 To run the main email processing application, simply execute:
@@ -147,6 +152,7 @@ To run the main email processing application, simply execute:
 ```bash
 python main.py
 ```
+
 
 ## Workflow Overview
 
@@ -158,6 +164,8 @@ python main.py
 | 3️  | `PriorityAgent`   | Sends urgent email details to Google Chat     |
 | 4️  | `ResponderAgent`  | Generates and stores AI reply in Gmail Drafts |
 | 5️  | `Orchestrator`    | Handles labeling and process flow             |
+
+
 
 
 ## Example Output
