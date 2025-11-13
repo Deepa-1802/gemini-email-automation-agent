@@ -7,6 +7,7 @@ Managing email shouldn’t feel like a full-time job. The AI Email Responder Age
 
 Powered by Gemini API, LangGraph, and Google Chat Webhooks, this agent transforms your inbox into a self-organizing, self-responding system that’s always on and always accurate.
 
+
 ## What It Does
 
 ### - **Real-Time Monitoring**
@@ -28,7 +29,8 @@ Uses Gemini’s natural language understanding to sort emails into:
 
   🚨 Sends urgent alerts to Google Chat for immediate attention
 
-## ⚡Architecture Highlights
+
+## Architecture Highlights
 
 ### - **LangGraph Workflow**
    Modular and event-driven, designed for scalability and maintainability.
@@ -37,6 +39,7 @@ Uses Gemini’s natural language understanding to sort emails into:
 ### - **Google Chat Integration**
    Ensures urgent messages reach you instantly — even outside your inbox.
 
+
 ## Why It Matters
 
 This isn’t just automation — it’s peace of mind. Whether you’re deep in work or offline for the weekend, your inbox stays organized, responsive, and alert-ready.
@@ -44,7 +47,7 @@ This isn’t just automation — it’s peace of mind. Whether you’re deep in 
 No more inbox anxiety. Just intelligent communication, handled quietly and efficiently.
 
 ## Features
-
+```plaintext
  ***1.Email Fetching***:              Reads new emails using Gmail API
  
  ***2.Classification (Gemini API)***: Categorizes emails as Work, Personal, Spam, or Urgent
@@ -58,6 +61,8 @@ No more inbox anxiety. Just intelligent communication, handled quietly and effic
  ***6.Continuous Workflow***:         Runs in background with periodic checks using asyncio
  
  ***7.Modular Design***:              Each step is handled by a separate agent (fetcher, classifier, responder, priority handler)
+```
+
 
 
 ## Directory Structure
